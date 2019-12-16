@@ -9,8 +9,7 @@ function App() {
   const [loading, setLoading] = useState(false);
 
   const [currentPage, setCurrentPage] = useState(1);
-
-  // eslint-disable-next-line no-unused-vars
+  
   const [postsPerPage, setPostsPerPage] = useState(10);
 
   useEffect(() => {
